@@ -10,15 +10,18 @@ This project provides a simple image similarity calculator using the CLIP (Contr
 - PIL (Python Imaging Library)
 - FastAPI (for running app.py)
 
-## Installation
+## Getting Started
 
-1. Clone this repository:
+1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/image-similarity-calculator.git
-cd image-similarity-calculator
+git clone https://github.com/cobanov/fastapi-image-classification.git
+cd fastapi-image-classification
 ```
 
-2. Install the required dependencies:
+2. Build and run the docker image
 
-For predictor.py:
+```bash
+docker build -t image_similarity .
+docker run -d -p 8002:8002 image_recognition
+```
