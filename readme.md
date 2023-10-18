@@ -15,8 +15,8 @@ This project provides a simple image similarity calculator using the CLIP (Contr
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/cobanov/fastapi-image-classification.git
-cd fastapi-image-classification
+git clone https://github.com/cobanov/clip-image-similarity
+cd clip-image-similarity
 ```
 
 2. Build and run the docker image
