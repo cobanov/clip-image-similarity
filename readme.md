@@ -23,5 +23,5 @@ cd fastapi-image-classification
 
 ```bash
 docker build -t image_similarity .
-docker run -d -p 8002:8002 image_recognition
+docker run -d -p 8002:8002 image_similarity
 ```
